@@ -3,7 +3,7 @@
 En primer lugar, clonar el repositorio:
 
 ```bash
-git clone <URL_del_repositorio>
+git clone https://github.com/Benit0Trdlla/Perfil-de-Usuario
 ```
 
 ## Dependencias
@@ -12,14 +12,6 @@ Luego instalar las dependencias:
 
 ```bash
 npm install
-```
-
-## Cambiar el Path
-
-Despues de haber descargado las dependencias, entrar a la carpeta 'web'
-
-```bash
-cd web
 ```
 
 ## Ejecutar proyecto
