@@ -1,0 +1,90 @@
+.title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: grey; */
+    border-radius: 10px;
+}
+
+.form input {
+    margin-bottom: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 300px;
+    transition: border-color 0.4s ease-in;
+}
+
+.form input::placeholder {
+    color: #ccc;
+}
+
+.form textarea {
+    margin-bottom: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 300px;
+    transition: border-color 0.4s ease-in;
+}
+
+.form textarea::placeholder {
+    color: #ccc;
+}
+
+.form input:focus {
+    outline: none;
+    border-color: black;
+    border-width: 2px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    font-size: medium;
+}
+
+.form textarea:focus {
+    outline: none;
+    border-color: black;
+    border-width: 2px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    font-size: medium;
+}
+
+.form button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.errorMessage {
+    color: #EA868F;
+    font-size: 14px;
+    border: #EA868F solid 1px;
+    padding: 10px;
+    background-color: #2C0B0E;
+    border-radius: 5px;
+}
+
+.successMessage {
+    color: #75B798;
+    font-size: 14px;
+    border: #75B798 solid 1px;
+    padding: 10px;
+    background-color: #051B11;
+    border-radius: 5px;
+}
