@@ -1,34 +1,8 @@
-## Primeros pasos
+## Perfil de Usuario
 
-En primer lugar, clonar el repositorio:
-
-```bash
-git clone https://github.com/Benit0Trdlla/Perfil-de-Usuario
-```
-
-## Dependencias
-
-Luego instalar las dependencias:
-
-```bash
-npm install
-```
-
-## Ejecutar proyecto
-
-Y listo, ejecutar el servidor de desarrollo
-
-```bash
-npm run dev
-# o
-yarn dev
-# o
-pnpm dev
-# o
-bun dev
-```
+Como siempre intento mejorar como Desarrollador Web y siendo un comprometido con el aprendizaje continuo para lograr objetivos personales y ofrecer resultados significativos pense un breve proyecto para poder practicar Maquetación Web y CSS Modules.
 
 ## Ver el resultado
 
-Finalmente abrir [http://localhost:3000](http://localhost:3000) en el navegador.
+Deploy: [https://perfil-de-usuario-two.vercel.app/](https://perfil-de-usuario-two.vercel.app/).
 
